@@ -1,7 +1,7 @@
 import Xwiper from 'xwiper'
 
 const controller = function (routerElement, router, ctrlConfig, projectConfig) {
-  const xwiperEl = new Xwiper(routerElement)
+  const xwiperEl = new Xwiper(routerElement.parentNode)
   xwiperEl.onSwipeLeft(router.next)
   xwiperEl.onSwipeRight(router.prev)
 }
