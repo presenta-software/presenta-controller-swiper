@@ -1,31 +1,27 @@
 # PRESENTA Swiper Controller
 
+![](https://img.shields.io/npm/v/@presenta/controller-swiper)
+
 This controller adds the swipe gesture capability on touch-enabled devices to let the user navigating back and forth in a [PRESENTA Lib](https://github.com/presenta-software/presenta-lib) document.
 
-## Installation
+## Documentation
 
-Please read the installation istructions for official plugins [here](https://lib.presenta.cc/extend/#install-an-official-plugin) using this unique identifier: `controller-swiper`
+Full documentation can be found [here](https://lib.presenta.cc/plugins/controllers/swiper).
 
-## Usage
+## Contribute
 
-To configure this controller use this setting:
+### Development
 
-```js
-{
-    controllers:{
-      swiper:true
-    }
-}
-```
+To start a development session:
 
+	npm start
 
-## Development
+To build a release:
 
-Run the watcher:
+	npm run build
 
-    npm start
+## Licence
 
-and the local webserver
+This plugin is released under the [3-Clause BSD license](LICENSE).
 
-    npm run test
-
+Copyright © 2020 Fabio Franchino, [https://fabiofranchino.com](https://fabiofranchino.com)
