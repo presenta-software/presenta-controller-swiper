@@ -28,6 +28,7 @@
     "standard": "^14.3.4"
   },
   "dependencies": {
+    "lethargy": "^1.0.9",
     "xwiper": "^2.2.1"
   }
 }
