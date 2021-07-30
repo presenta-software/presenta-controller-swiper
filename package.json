@@ -1,6 +1,6 @@
 {
   "name": "@presenta/controller-swiper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Add swipe gesture capability on touch-enabled devices",
   "main": "src/index.js",
   "unpkg": "dist/presenta-controller-swiper.min.js",
